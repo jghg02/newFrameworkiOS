@@ -27,3 +27,6 @@ FOUNDATION_EXPORT const unsigned char FutureFrameworkVersionString[];
 #import "AFSecurityPolicy.h"
 #import "AFNetworkReachabilityManager.h"
 #import "AFURLSessionManager.h"
+
+//iCarousel
+#import "iCarousel.h"

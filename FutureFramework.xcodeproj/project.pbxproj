@@ -29,6 +29,8 @@
 		D6E017601B08062D00DAFA0C /* AFURLResponseSerialization.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0174D1B08062D00DAFA0C /* AFURLResponseSerialization.m */; };
 		D6E017611B08062D00DAFA0C /* AFURLSessionManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E0174E1B08062D00DAFA0C /* AFURLSessionManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6E017621B08062D00DAFA0C /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0174F1B08062D00DAFA0C /* AFURLSessionManager.m */; };
+		D6E0176E1B080EEA00DAFA0C /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E0176C1B080EEA00DAFA0C /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6E0176F1B080EEA00DAFA0C /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0176D1B080EEA00DAFA0C /* iCarousel.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +69,8 @@
 		D6E0174D1B08062D00DAFA0C /* AFURLResponseSerialization.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLResponseSerialization.m; sourceTree = "<group>"; };
 		D6E0174E1B08062D00DAFA0C /* AFURLSessionManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFURLSessionManager.h; sourceTree = "<group>"; };
 		D6E0174F1B08062D00DAFA0C /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
+		D6E0176C1B080EEA00DAFA0C /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
+		D6E0176D1B080EEA00DAFA0C /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +113,7 @@
 		D62CA49B1B0800B0000768B0 /* FutureFramework */ = {
 			isa = PBXGroup;
 			children = (
+				D6E0176B1B080EDD00DAFA0C /* iCarousel */,
 				D6E0173C1B0805DF00DAFA0C /* AFNetworking */,
 				D62CA49E1B0800B0000768B0 /* FutureFramework.h */,
 				D62CA49C1B0800B0000768B0 /* Supporting Files */,
@@ -167,6 +172,15 @@
 			name = AFNetworking;
 			sourceTree = "<group>";
 		};
+		D6E0176B1B080EDD00DAFA0C /* iCarousel */ = {
+			isa = PBXGroup;
+			children = (
+				D6E0176C1B080EEA00DAFA0C /* iCarousel.h */,
+				D6E0176D1B080EEA00DAFA0C /* iCarousel.m */,
+			);
+			name = iCarousel;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -184,6 +198,7 @@
 				D6E017591B08062D00DAFA0C /* AFSecurityPolicy.h in Headers */,
 				D6E017521B08062D00DAFA0C /* AFHTTPRequestOperationManager.h in Headers */,
 				D6E017561B08062D00DAFA0C /* AFNetworking.h in Headers */,
+				D6E0176E1B080EEA00DAFA0C /* iCarousel.h in Headers */,
 				D6E0175F1B08062D00DAFA0C /* AFURLResponseSerialization.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -285,6 +300,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D6E017621B08062D00DAFA0C /* AFURLSessionManager.m in Sources */,
+				D6E0176F1B080EEA00DAFA0C /* iCarousel.m in Sources */,
 				D6E017551B08062D00DAFA0C /* AFHTTPSessionManager.m in Sources */,
 				D6E0175A1B08062D00DAFA0C /* AFSecurityPolicy.m in Sources */,
 				D6E017531B08062D00DAFA0C /* AFHTTPRequestOperationManager.m in Sources */,
