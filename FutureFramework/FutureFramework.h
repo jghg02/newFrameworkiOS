@@ -16,4 +16,14 @@ FOUNDATION_EXPORT const unsigned char FutureFrameworkVersionString[];
 
 // In this header, you should import all the public headers of your framework using statements like #import <FutureFramework/PublicHeader.h>
 
+//In this file put all .h files to need
 
+//AFNetworking
+#import "AFNetworking.h"
+#import "AFURLConnectionOperation.h"
+#import "AFHTTPRequestOperation.h"
+#import "AFURLResponseSerialization.h"
+#import "AFURLRequestSerialization.h"
+#import "AFSecurityPolicy.h"
+#import "AFNetworkReachabilityManager.h"
+#import "AFURLSessionManager.h"
