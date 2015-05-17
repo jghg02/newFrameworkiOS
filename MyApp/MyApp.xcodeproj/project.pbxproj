@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D62F09091B09406500D1F7DA /* no_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = D62F09081B09406500D1F7DA /* no_flag.png */; };
 		D6BDB9DA1B0931E300E714E5 /* SBTVTeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDB9D81B0931E300E714E5 /* SBTVTeamCell.swift */; };
 		D6BDB9DB1B0931E300E714E5 /* SBTVTeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6BDB9D91B0931E300E714E5 /* SBTVTeamCell.xib */; };
 		D6E017101B0801F100DAFA0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0170F1B0801F100DAFA0C /* main.m */; };
@@ -75,6 +76,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D62F09081B09406500D1F7DA /* no_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_flag.png; sourceTree = "<group>"; };
 		D6BDB9D81B0931E300E714E5 /* SBTVTeamCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBTVTeamCell.swift; sourceTree = "<group>"; };
 		D6BDB9D91B0931E300E714E5 /* SBTVTeamCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBTVTeamCell.xib; sourceTree = "<group>"; };
 		D6E0170A1B0801F100DAFA0C /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -115,6 +117,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D62F09061B09405A00D1F7DA /* images */ = {
+			isa = PBXGroup;
+			children = (
+				D62F09081B09406500D1F7DA /* no_flag.png */,
+			);
+			name = images;
+			sourceTree = "<group>";
+		};
 		D6BDB9D61B0931C800E714E5 /* Cells */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,6 +156,7 @@
 		D6E0170C1B0801F100DAFA0C /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				D62F09061B09405A00D1F7DA /* images */,
 				D6BDB9D61B0931C800E714E5 /* Cells */,
 				D6E017701B080FF200DAFA0C /* ViewController */,
 				D6E017111B0801F100DAFA0C /* AppDelegate.h */,
@@ -311,6 +322,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D62F09091B09406500D1F7DA /* no_flag.png in Resources */,
 				D6E017191B0801F100DAFA0C /* Main.storyboard in Resources */,
 				D6E017831B08266500DAFA0C /* httpWebServices.plist in Resources */,
 				D6E0171E1B0801F100DAFA0C /* LaunchScreen.xib in Resources */,
