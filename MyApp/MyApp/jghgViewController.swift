@@ -12,6 +12,7 @@ import FutureFramework
 
 public class jghgViewController : UIViewController {
 
+    @IBOutlet weak var carousel: iCarousel!
 
     public override func viewDidLoad() {
         super.viewDidLoad()

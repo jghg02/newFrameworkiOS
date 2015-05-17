@@ -7,6 +7,8 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6BDB9DA1B0931E300E714E5 /* SBTVTeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDB9D81B0931E300E714E5 /* SBTVTeamCell.swift */; };
+		D6BDB9DB1B0931E300E714E5 /* SBTVTeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6BDB9D91B0931E300E714E5 /* SBTVTeamCell.xib */; };
 		D6E017101B0801F100DAFA0C /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0170F1B0801F100DAFA0C /* main.m */; };
 		D6E017131B0801F100DAFA0C /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E017121B0801F100DAFA0C /* AppDelegate.m */; };
 		D6E017161B0801F100DAFA0C /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E017151B0801F100DAFA0C /* ViewController.m */; };
@@ -73,6 +75,8 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D6BDB9D81B0931E300E714E5 /* SBTVTeamCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBTVTeamCell.swift; sourceTree = "<group>"; };
+		D6BDB9D91B0931E300E714E5 /* SBTVTeamCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBTVTeamCell.xib; sourceTree = "<group>"; };
 		D6E0170A1B0801F100DAFA0C /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D6E0170E1B0801F100DAFA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6E0170F1B0801F100DAFA0C /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -111,6 +115,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6BDB9D61B0931C800E714E5 /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				D6BDB9D81B0931E300E714E5 /* SBTVTeamCell.swift */,
+				D6BDB9D91B0931E300E714E5 /* SBTVTeamCell.xib */,
+			);
+			name = Cells;
+			sourceTree = "<group>";
+		};
 		D6E017011B0801F100DAFA0C = {
 			isa = PBXGroup;
 			children = (
@@ -133,6 +146,7 @@
 		D6E0170C1B0801F100DAFA0C /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				D6BDB9D61B0931C800E714E5 /* Cells */,
 				D6E017701B080FF200DAFA0C /* ViewController */,
 				D6E017111B0801F100DAFA0C /* AppDelegate.h */,
 				D6E017121B0801F100DAFA0C /* AppDelegate.m */,
@@ -301,6 +315,7 @@
 				D6E017831B08266500DAFA0C /* httpWebServices.plist in Resources */,
 				D6E0171E1B0801F100DAFA0C /* LaunchScreen.xib in Resources */,
 				D6E0171B1B0801F100DAFA0C /* Images.xcassets in Resources */,
+				D6BDB9DB1B0931E300E714E5 /* SBTVTeamCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -320,6 +335,7 @@
 			files = (
 				D6E017161B0801F100DAFA0C /* ViewController.m in Sources */,
 				D6E017131B0801F100DAFA0C /* AppDelegate.m in Sources */,
+				D6BDB9DA1B0931E300E714E5 /* SBTVTeamCell.swift in Sources */,
 				D6E017771B08117300DAFA0C /* jghgViewController.swift in Sources */,
 				D6E017101B0801F100DAFA0C /* main.m in Sources */,
 			);
