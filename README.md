@@ -34,6 +34,22 @@ En el siguiente paso nos pide el directorio donde queremos guardar dicho proyect
 
 ![](https://raw.githubusercontent.com/jghg02/newFrameworkiOS/master/img/6.png)
 
+Luego para poder hacer referencia al __Framework__ dentro de nuestra app es necesario arrastrar el proyecto del _Framework_ al de la aplicaion. Cuando se haga esto nos va a pedir lo siguiente.
+
+![](https://raw.githubusercontent.com/jghg02/newFrameworkiOS/master/img/9.png)
+
+_Y para este caso quitamos el check en_ __Copy items if nedded__ y de damos _finish_
+Y la estructura del proyecto nos va a quedar de la siguiente manera. 
+
+![](https://raw.githubusercontent.com/jghg02/newFrameworkiOS/master/img/10.png)
+
+Por ultimo es necesario ir a __Build Phases__ -> __Target Dependencies__ y aqui agregar el framework
+
+![](https://raw.githubusercontent.com/jghg02/newFrameworkiOS/master/img/12.png)
+
+Al igual se debe ir a __General__ -> __Embedded Binaries__ y agregar el _Framework_ 
+
+
 
 This is very importan to added AFNetworking into Framework 
 https://github.com/AFNetworking/AFNetworking/issues/2205
