@@ -533,6 +533,7 @@
 				D6E0172F1B0801F100DAFA0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		D6E017301B0801F100DAFA0C /* Build configuration list for PBXNativeTarget "MyAppTests" */ = {
 			isa = XCConfigurationList;
@@ -541,6 +542,7 @@
 				D6E017321B0801F100DAFA0C /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

@@ -19,6 +19,16 @@ public class jghgViewController : UIViewController {
         //getting URL
         let url = FutureServices.getURL("equipo")
         NSLog("This is the URL \(url)")
+        
+        FutureServices.getWsUrl("posiciones", sucess: {(data) -> Void in
+            
+            NSLog("Data \(data.count)")
+            
+        }, failure: {(error) -> Void in
+                
+            NSLog("Erro getting Teams... \(error)")
+                
+        })
 
         
     }

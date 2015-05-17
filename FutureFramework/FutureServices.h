@@ -15,5 +15,6 @@
 @interface FutureServices : NSObject
 
 +(NSString *)getURL:(NSString *)name;
++(void)getWsUrl:(NSString *)pathWS sucess:(void (^) (id responseObject)) completion failure:(void (^) (NSError *error))failure;
 
 @end
