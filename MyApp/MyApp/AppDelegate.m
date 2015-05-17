@@ -8,6 +8,8 @@
 
 #import "AppDelegate.h"
 
+#import "MyApp-Swift.h"
+
 @interface AppDelegate ()
 
 @end

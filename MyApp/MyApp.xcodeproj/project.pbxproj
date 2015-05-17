@@ -16,6 +16,7 @@
 		D6E0172A1B0801F100DAFA0C /* MyAppTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E017291B0801F100DAFA0C /* MyAppTests.m */; };
 		D6E017651B08065E00DAFA0C /* FutureFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D6E017391B08058000DAFA0C /* FutureFramework.framework */; };
 		D6E017661B08065E00DAFA0C /* FutureFramework.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = D6E017391B08058000DAFA0C /* FutureFramework.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		D6E017771B08117300DAFA0C /* jghgViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6E017761B08117300DAFA0C /* jghgViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +86,8 @@
 		D6E017281B0801F100DAFA0C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D6E017291B0801F100DAFA0C /* MyAppTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = MyAppTests.m; sourceTree = "<group>"; };
 		D6E017331B08058000DAFA0C /* FutureFramework.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = FutureFramework.xcodeproj; path = ../FutureFramework.xcodeproj; sourceTree = "<group>"; };
+		D6E017711B08101B00DAFA0C /* MyApp-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "MyApp-Bridging-Header.h"; sourceTree = "<group>"; };
+		D6E017761B08117300DAFA0C /* jghgViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = jghgViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -128,6 +131,7 @@
 		D6E0170C1B0801F100DAFA0C /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				D6E017701B080FF200DAFA0C /* ViewController */,
 				D6E017111B0801F100DAFA0C /* AppDelegate.h */,
 				D6E017121B0801F100DAFA0C /* AppDelegate.m */,
 				D6E017141B0801F100DAFA0C /* ViewController.h */,
@@ -173,6 +177,15 @@
 				D6E0173B1B08058000DAFA0C /* FutureFrameworkTests.xctest */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		D6E017701B080FF200DAFA0C /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				D6E017711B08101B00DAFA0C /* MyApp-Bridging-Header.h */,
+				D6E017761B08117300DAFA0C /* jghgViewController.swift */,
+			);
+			name = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -303,6 +316,7 @@
 			files = (
 				D6E017161B0801F100DAFA0C /* ViewController.m in Sources */,
 				D6E017131B0801F100DAFA0C /* AppDelegate.m in Sources */,
+				D6E017771B08117300DAFA0C /* jghgViewController.swift in Sources */,
 				D6E017101B0801F100DAFA0C /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -441,9 +455,12 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyApp/MyApp-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
@@ -451,9 +468,11 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
 				INFOPLIST_FILE = MyApp/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "MyApp/MyApp-Bridging-Header.h";
 			};
 			name = Release;
 		};
