@@ -31,6 +31,9 @@
 		D6E017621B08062D00DAFA0C /* AFURLSessionManager.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0174F1B08062D00DAFA0C /* AFURLSessionManager.m */; };
 		D6E0176E1B080EEA00DAFA0C /* iCarousel.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E0176C1B080EEA00DAFA0C /* iCarousel.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6E0176F1B080EEA00DAFA0C /* iCarousel.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0176D1B080EEA00DAFA0C /* iCarousel.m */; };
+		D6E0177D1B081A2A00DAFA0C /* httpWebServices.plist in Resources */ = {isa = PBXBuildFile; fileRef = D6E0177C1B081A2A00DAFA0C /* httpWebServices.plist */; };
+		D6E0177F1B081E7A00DAFA0C /* FutureServices.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0177E1B081E7A00DAFA0C /* FutureServices.m */; };
+		D6E017811B081FAF00DAFA0C /* FutureServices.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E017801B081E8C00DAFA0C /* FutureServices.h */; settings = {ATTRIBUTES = (Public, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -71,6 +74,9 @@
 		D6E0174F1B08062D00DAFA0C /* AFURLSessionManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFURLSessionManager.m; sourceTree = "<group>"; };
 		D6E0176C1B080EEA00DAFA0C /* iCarousel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = iCarousel.h; sourceTree = "<group>"; };
 		D6E0176D1B080EEA00DAFA0C /* iCarousel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = iCarousel.m; sourceTree = "<group>"; };
+		D6E0177C1B081A2A00DAFA0C /* httpWebServices.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = httpWebServices.plist; sourceTree = "<group>"; };
+		D6E0177E1B081E7A00DAFA0C /* FutureServices.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FutureServices.m; sourceTree = "<group>"; };
+		D6E017801B081E8C00DAFA0C /* FutureServices.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = FutureServices.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -113,6 +119,7 @@
 		D62CA49B1B0800B0000768B0 /* FutureFramework */ = {
 			isa = PBXGroup;
 			children = (
+				D6E017781B08156D00DAFA0C /* Services */,
 				D6E0176B1B080EDD00DAFA0C /* iCarousel */,
 				D6E0173C1B0805DF00DAFA0C /* AFNetworking */,
 				D62CA49E1B0800B0000768B0 /* FutureFramework.h */,
@@ -125,6 +132,7 @@
 			isa = PBXGroup;
 			children = (
 				D62CA49D1B0800B0000768B0 /* Info.plist */,
+				D6E0177C1B081A2A00DAFA0C /* httpWebServices.plist */,
 			);
 			name = "Supporting Files";
 			sourceTree = "<group>";
@@ -181,6 +189,15 @@
 			name = iCarousel;
 			sourceTree = "<group>";
 		};
+		D6E017781B08156D00DAFA0C /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				D6E0177E1B081E7A00DAFA0C /* FutureServices.m */,
+				D6E017801B081E8C00DAFA0C /* FutureServices.h */,
+			);
+			name = Services;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
@@ -188,6 +205,7 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E017811B081FAF00DAFA0C /* FutureServices.h in Headers */,
 				D6E017611B08062D00DAFA0C /* AFURLSessionManager.h in Headers */,
 				D6E0175D1B08062D00DAFA0C /* AFURLRequestSerialization.h in Headers */,
 				D62CA49F1B0800B0000768B0 /* FutureFramework.h in Headers */,
@@ -282,6 +300,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6E0177D1B081A2A00DAFA0C /* httpWebServices.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -305,6 +324,7 @@
 				D6E0175A1B08062D00DAFA0C /* AFSecurityPolicy.m in Sources */,
 				D6E017531B08062D00DAFA0C /* AFHTTPRequestOperationManager.m in Sources */,
 				D6E017581B08062D00DAFA0C /* AFNetworkReachabilityManager.m in Sources */,
+				D6E0177F1B081E7A00DAFA0C /* FutureServices.m in Sources */,
 				D6E0175C1B08062D00DAFA0C /* AFURLConnectionOperation.m in Sources */,
 				D6E0175E1B08062D00DAFA0C /* AFURLRequestSerialization.m in Sources */,
 				D6E017601B08062D00DAFA0C /* AFURLResponseSerialization.m in Sources */,
@@ -422,6 +442,7 @@
 		D62CA4B01B0800B0000768B0 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
@@ -431,12 +452,14 @@
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
 			};
 			name = Debug;
 		};
 		D62CA4B11B0800B0000768B0 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				CLANG_ENABLE_MODULES = YES;
 				DEFINES_MODULE = YES;
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;

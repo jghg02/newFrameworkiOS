@@ -8,12 +8,19 @@
 
 import Foundation
 import UIKit
+import FutureFramework
 
 public class jghgViewController : UIViewController {
 
 
     public override func viewDidLoad() {
         super.viewDidLoad()
+        
+        //getting URL
+        let url = FutureServices.getURL("equipo")
+        NSLog("This is the URL \(url)")
+
+        
     }
     
     public override func viewDidAppear(animated: Bool) {

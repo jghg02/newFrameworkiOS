@@ -30,3 +30,7 @@ FOUNDATION_EXPORT const unsigned char FutureFrameworkVersionString[];
 
 //iCarousel
 #import "iCarousel.h"
+
+//Services
+#import "FutureServices.h"
+
