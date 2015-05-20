@@ -11,3 +11,10 @@
 
 
 #endif
+
+@interface Utils : NSObject
+
++(void)fillContainerView:(UIView *)container WithView:(UIView *)view;
++(NSMutableArray *) getFillContainerView:(UIView *)container WithView:(UIView *)view;
+
+@end

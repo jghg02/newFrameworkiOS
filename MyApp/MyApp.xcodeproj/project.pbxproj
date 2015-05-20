@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		D6242CE21B0CBDE800FE52C9 /* AutolayoutUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6242CE11B0CBDE800FE52C9 /* AutolayoutUtils.swift */; };
 		D62F09091B09406500D1F7DA /* no_flag.png in Resources */ = {isa = PBXBuildFile; fileRef = D62F09081B09406500D1F7DA /* no_flag.png */; };
 		D6BDB9DA1B0931E300E714E5 /* SBTVTeamCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6BDB9D81B0931E300E714E5 /* SBTVTeamCell.swift */; };
 		D6BDB9DB1B0931E300E714E5 /* SBTVTeamCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6BDB9D91B0931E300E714E5 /* SBTVTeamCell.xib */; };
@@ -76,6 +77,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		D6242CE11B0CBDE800FE52C9 /* AutolayoutUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutolayoutUtils.swift; sourceTree = "<group>"; };
 		D62F09081B09406500D1F7DA /* no_flag.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = no_flag.png; sourceTree = "<group>"; };
 		D6BDB9D81B0931E300E714E5 /* SBTVTeamCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBTVTeamCell.swift; sourceTree = "<group>"; };
 		D6BDB9D91B0931E300E714E5 /* SBTVTeamCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SBTVTeamCell.xib; sourceTree = "<group>"; };
@@ -117,6 +119,14 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		D6242CDF1B0CBDDD00FE52C9 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D6242CE11B0CBDE800FE52C9 /* AutolayoutUtils.swift */,
+			);
+			name = Utils;
+			sourceTree = "<group>";
+		};
 		D62F09061B09405A00D1F7DA /* images */ = {
 			isa = PBXGroup;
 			children = (
@@ -156,6 +166,7 @@
 		D6E0170C1B0801F100DAFA0C /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				D6242CDF1B0CBDDD00FE52C9 /* Utils */,
 				D62F09061B09405A00D1F7DA /* images */,
 				D6BDB9D61B0931C800E714E5 /* Cells */,
 				D6E017701B080FF200DAFA0C /* ViewController */,
@@ -346,6 +357,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6242CE21B0CBDE800FE52C9 /* AutolayoutUtils.swift in Sources */,
 				D6E017161B0801F100DAFA0C /* ViewController.m in Sources */,
 				D6E017131B0801F100DAFA0C /* AppDelegate.m in Sources */,
 				D6BDB9DA1B0931E300E714E5 /* SBTVTeamCell.swift in Sources */,

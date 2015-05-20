@@ -10,6 +10,8 @@
 		D62CA49F1B0800B0000768B0 /* FutureFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D62CA49E1B0800B0000768B0 /* FutureFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D62CA4A51B0800B0000768B0 /* FutureFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62CA4991B0800B0000768B0 /* FutureFramework.framework */; };
 		D62CA4AC1B0800B0000768B0 /* FutureFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D62CA4AB1B0800B0000768B0 /* FutureFrameworkTests.m */; };
+		D684863B1B0C02A50003E1A3 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D684863A1B0C02A50003E1A3 /* Utils.m */; };
+		D684863C1B0C03570003E1A3 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = D68486391B0C02920003E1A3 /* Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6E017501B08062D00DAFA0C /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E0173D1B08062D00DAFA0C /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6E017511B08062D00DAFA0C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0173E1B08062D00DAFA0C /* AFHTTPRequestOperation.m */; };
 		D6E017521B08062D00DAFA0C /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E0173F1B08062D00DAFA0C /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -53,6 +55,8 @@
 		D62CA4A41B0800B0000768B0 /* FutureFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutureFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62CA4AA1B0800B0000768B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D62CA4AB1B0800B0000768B0 /* FutureFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FutureFrameworkTests.m; sourceTree = "<group>"; };
+		D68486391B0C02920003E1A3 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
+		D684863A1B0C02A50003E1A3 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
 		D6E0173D1B08062D00DAFA0C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		D6E0173E1B08062D00DAFA0C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		D6E0173F1B08062D00DAFA0C /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -119,6 +123,7 @@
 		D62CA49B1B0800B0000768B0 /* FutureFramework */ = {
 			isa = PBXGroup;
 			children = (
+				D68486381B0C02790003E1A3 /* Utils */,
 				D6E017781B08156D00DAFA0C /* Services */,
 				D6E0176B1B080EDD00DAFA0C /* iCarousel */,
 				D6E0173C1B0805DF00DAFA0C /* AFNetworking */,
@@ -152,6 +157,15 @@
 				D62CA4AA1B0800B0000768B0 /* Info.plist */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		D68486381B0C02790003E1A3 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				D68486391B0C02920003E1A3 /* Utils.h */,
+				D684863A1B0C02A50003E1A3 /* Utils.m */,
+			);
+			name = Utils;
 			sourceTree = "<group>";
 		};
 		D6E0173C1B0805DF00DAFA0C /* AFNetworking */ = {
@@ -218,6 +232,7 @@
 				D6E017561B08062D00DAFA0C /* AFNetworking.h in Headers */,
 				D6E0176E1B080EEA00DAFA0C /* iCarousel.h in Headers */,
 				D6E0175F1B08062D00DAFA0C /* AFURLResponseSerialization.h in Headers */,
+				D684863C1B0C03570003E1A3 /* Utils.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -321,6 +336,7 @@
 				D6E017621B08062D00DAFA0C /* AFURLSessionManager.m in Sources */,
 				D6E0176F1B080EEA00DAFA0C /* iCarousel.m in Sources */,
 				D6E017551B08062D00DAFA0C /* AFHTTPSessionManager.m in Sources */,
+				D684863B1B0C02A50003E1A3 /* Utils.m in Sources */,
 				D6E0175A1B08062D00DAFA0C /* AFSecurityPolicy.m in Sources */,
 				D6E017531B08062D00DAFA0C /* AFHTTPRequestOperationManager.m in Sources */,
 				D6E017581B08062D00DAFA0C /* AFNetworkReachabilityManager.m in Sources */,

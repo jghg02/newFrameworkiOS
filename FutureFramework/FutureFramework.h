@@ -34,3 +34,5 @@ FOUNDATION_EXPORT const unsigned char FutureFrameworkVersionString[];
 //Services
 #import "FutureServices.h"
 
+//Utils
+#import "Utils.h"
