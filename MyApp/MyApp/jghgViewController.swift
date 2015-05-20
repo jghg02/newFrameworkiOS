@@ -13,13 +13,11 @@ import FutureFramework
 public class jghgViewController : UIViewController, iCarouselDelegate, iCarouselDataSource {
 
     @IBOutlet weak var carousel: iCarousel!
-    @IBOutlet weak var content: UIView!
     @IBOutlet var root: UIView!
 
     public override func viewDidLoad() {
         super.viewDidLoad()
         
-        //Utils.fillContainerView(self.root, withView: self.content)
         
         //Setting Config Carousel
         self.carousel.type = iCarouselType.Custom
@@ -34,10 +32,11 @@ public class jghgViewController : UIViewController, iCarouselDelegate, iCarousel
             
         }, failure: {(error) -> Void in
                 
-            NSLog("Erro getting Teams... \(error)")
+            NSLog("Error getting Teams... \(error)")
                 
         })
 
+        
         
     }
     

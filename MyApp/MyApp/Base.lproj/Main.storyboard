@@ -33,13 +33,9 @@
                         <rect key="frame" x="0.0" y="0.0" width="600" height="600"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <view contentMode="scaleToFill" fixedFrame="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Id3-0b-YuN" userLabel="view">
-                                <rect key="frame" x="95" y="150" width="411" height="300"/>
-                                <color key="backgroundColor" red="0.43921568630000002" green="0.70980392160000005" blue="0.27058823529999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
-                            </view>
                             <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="bpX-UA-dfg" customClass="iCarousel">
                                 <rect key="frame" x="150" y="103" width="300" height="394"/>
-                                <color key="backgroundColor" red="0.24395542036662121" green="0.4129571230006775" blue="0.66666666666666663" alpha="1" colorSpace="calibratedRGB"/>
+                                <color key="backgroundColor" red="0.0" green="0.0" blue="0.0" alpha="1" colorSpace="calibratedRGB"/>
                                 <constraints>
                                     <constraint firstAttribute="height" constant="394" id="s6x-vA-jwn"/>
                                     <constraint firstAttribute="width" constant="300" id="vtw-Tm-u6B"/>
@@ -58,7 +54,6 @@
                     </view>
                     <connections>
                         <outlet property="carousel" destination="bpX-UA-dfg" id="WKV-os-GMs"/>
-                        <outlet property="content" destination="Id3-0b-YuN" id="c7P-0Z-TR1"/>
                         <outlet property="root" destination="AUv-gt-u9Q" id="BPn-tQ-qD5"/>
                     </connections>
                 </viewController>
