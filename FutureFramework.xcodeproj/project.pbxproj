@@ -12,6 +12,10 @@
 		D62CA4AC1B0800B0000768B0 /* FutureFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D62CA4AB1B0800B0000768B0 /* FutureFrameworkTests.m */; };
 		D684863B1B0C02A50003E1A3 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D684863A1B0C02A50003E1A3 /* Utils.m */; };
 		D684863C1B0C03570003E1A3 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = D68486391B0C02920003E1A3 /* Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6A50D3C1B1127F500CAA229 /* LoaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A50D391B1127F500CAA229 /* LoaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		D6A50D3D1B1127F500CAA229 /* LoaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A50D3A1B1127F500CAA229 /* LoaderViewController.m */; };
+		D6A50D3E1B1127F500CAA229 /* LoaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A50D3B1B1127F500CAA229 /* LoaderViewController.xib */; };
+		D6A50D751B11292200CAA229 /* LoaderViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = D6A50D3B1B1127F500CAA229 /* LoaderViewController.xib */; };
 		D6E017501B08062D00DAFA0C /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E0173D1B08062D00DAFA0C /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6E017511B08062D00DAFA0C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0173E1B08062D00DAFA0C /* AFHTTPRequestOperation.m */; };
 		D6E017521B08062D00DAFA0C /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E0173F1B08062D00DAFA0C /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -57,6 +61,9 @@
 		D62CA4AB1B0800B0000768B0 /* FutureFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FutureFrameworkTests.m; sourceTree = "<group>"; };
 		D68486391B0C02920003E1A3 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		D684863A1B0C02A50003E1A3 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
+		D6A50D391B1127F500CAA229 /* LoaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoaderViewController.h; sourceTree = "<group>"; };
+		D6A50D3A1B1127F500CAA229 /* LoaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoaderViewController.m; sourceTree = "<group>"; };
+		D6A50D3B1B1127F500CAA229 /* LoaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoaderViewController.xib; sourceTree = "<group>"; };
 		D6E0173D1B08062D00DAFA0C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		D6E0173E1B08062D00DAFA0C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		D6E0173F1B08062D00DAFA0C /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -123,6 +130,7 @@
 		D62CA49B1B0800B0000768B0 /* FutureFramework */ = {
 			isa = PBXGroup;
 			children = (
+				D6A50D171B11247900CAA229 /* Loader */,
 				D68486381B0C02790003E1A3 /* Utils */,
 				D6E017781B08156D00DAFA0C /* Services */,
 				D6E0176B1B080EDD00DAFA0C /* iCarousel */,
@@ -166,6 +174,16 @@
 				D684863A1B0C02A50003E1A3 /* Utils.m */,
 			);
 			name = Utils;
+			sourceTree = "<group>";
+		};
+		D6A50D171B11247900CAA229 /* Loader */ = {
+			isa = PBXGroup;
+			children = (
+				D6A50D391B1127F500CAA229 /* LoaderViewController.h */,
+				D6A50D3A1B1127F500CAA229 /* LoaderViewController.m */,
+				D6A50D3B1B1127F500CAA229 /* LoaderViewController.xib */,
+			);
+			name = Loader;
 			sourceTree = "<group>";
 		};
 		D6E0173C1B0805DF00DAFA0C /* AFNetworking */ = {
@@ -233,6 +251,7 @@
 				D6E0176E1B080EEA00DAFA0C /* iCarousel.h in Headers */,
 				D6E0175F1B08062D00DAFA0C /* AFURLResponseSerialization.h in Headers */,
 				D684863C1B0C03570003E1A3 /* Utils.h in Headers */,
+				D6A50D3C1B1127F500CAA229 /* LoaderViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -315,6 +334,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D6A50D3E1B1127F500CAA229 /* LoaderViewController.xib in Resources */,
 				D6E0177D1B081A2A00DAFA0C /* httpWebServices.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -339,12 +359,14 @@
 				D684863B1B0C02A50003E1A3 /* Utils.m in Sources */,
 				D6E0175A1B08062D00DAFA0C /* AFSecurityPolicy.m in Sources */,
 				D6E017531B08062D00DAFA0C /* AFHTTPRequestOperationManager.m in Sources */,
+				D6A50D3D1B1127F500CAA229 /* LoaderViewController.m in Sources */,
 				D6E017581B08062D00DAFA0C /* AFNetworkReachabilityManager.m in Sources */,
 				D6E0177F1B081E7A00DAFA0C /* FutureServices.m in Sources */,
 				D6E0175C1B08062D00DAFA0C /* AFURLConnectionOperation.m in Sources */,
 				D6E0175E1B08062D00DAFA0C /* AFURLRequestSerialization.m in Sources */,
 				D6E017601B08062D00DAFA0C /* AFURLResponseSerialization.m in Sources */,
 				D6E017511B08062D00DAFA0C /* AFHTTPRequestOperation.m in Sources */,
+				D6A50D751B11292200CAA229 /* LoaderViewController.xib in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
