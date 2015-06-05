@@ -10,12 +10,34 @@
 		D62CA49F1B0800B0000768B0 /* FutureFramework.h in Headers */ = {isa = PBXBuildFile; fileRef = D62CA49E1B0800B0000768B0 /* FutureFramework.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D62CA4A51B0800B0000768B0 /* FutureFramework.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D62CA4991B0800B0000768B0 /* FutureFramework.framework */; };
 		D62CA4AC1B0800B0000768B0 /* FutureFrameworkTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D62CA4AB1B0800B0000768B0 /* FutureFrameworkTests.m */; };
+		D66BF2DC1B208CCA00B8176D /* 1.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2C71B208CCA00B8176D /* 1.png */; };
+		D66BF2DD1B208CCA00B8176D /* 2.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2C81B208CCA00B8176D /* 2.png */; };
+		D66BF2DE1B208CCA00B8176D /* 3.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2C91B208CCA00B8176D /* 3.png */; };
+		D66BF2DF1B208CCA00B8176D /* 4.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2CA1B208CCA00B8176D /* 4.png */; };
+		D66BF2E01B208CCA00B8176D /* 5.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2CB1B208CCA00B8176D /* 5.png */; };
+		D66BF2E11B208CCA00B8176D /* 6.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2CC1B208CCA00B8176D /* 6.png */; };
+		D66BF2E21B208CCA00B8176D /* 7.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2CD1B208CCA00B8176D /* 7.png */; };
+		D66BF2E31B208CCA00B8176D /* 8.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2CE1B208CCA00B8176D /* 8.png */; };
+		D66BF2E41B208CCA00B8176D /* 9.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2CF1B208CCA00B8176D /* 9.png */; };
+		D66BF2E51B208CCA00B8176D /* 10.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2D01B208CCA00B8176D /* 10.png */; };
+		D66BF2E61B208CCA00B8176D /* 11.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2D11B208CCA00B8176D /* 11.png */; };
+		D66BF2E71B208CCA00B8176D /* 12.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2D21B208CCA00B8176D /* 12.png */; };
+		D66BF2E81B208CCA00B8176D /* 13.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2D31B208CCA00B8176D /* 13.png */; };
+		D66BF2E91B208CCA00B8176D /* 14.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2D41B208CCA00B8176D /* 14.png */; };
+		D66BF2EA1B208CCA00B8176D /* 15.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2D51B208CCA00B8176D /* 15.png */; };
+		D66BF2EB1B208CCA00B8176D /* 16.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2D61B208CCA00B8176D /* 16.png */; };
+		D66BF2EC1B208CCA00B8176D /* 17.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2D71B208CCA00B8176D /* 17.png */; };
+		D66BF2ED1B208CCA00B8176D /* 18.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2D81B208CCA00B8176D /* 18.png */; };
+		D66BF2EE1B208CCA00B8176D /* 19.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2D91B208CCA00B8176D /* 19.png */; };
+		D66BF2EF1B208CCA00B8176D /* SBTVLoaderViewiPhone.xib in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2DA1B208CCA00B8176D /* SBTVLoaderViewiPhone.xib */; };
+		D66BF2F01B208CCA00B8176D /* spiner.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2DB1B208CCA00B8176D /* spiner.png */; };
+		D66BF2F51B208E7B00B8176D /* rocket.png in Resources */ = {isa = PBXBuildFile; fileRef = D66BF2F41B208E7B00B8176D /* rocket.png */; };
 		D684863B1B0C02A50003E1A3 /* Utils.m in Sources */ = {isa = PBXBuildFile; fileRef = D684863A1B0C02A50003E1A3 /* Utils.m */; };
 		D684863C1B0C03570003E1A3 /* Utils.h in Headers */ = {isa = PBXBuildFile; fileRef = D68486391B0C02920003E1A3 /* Utils.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6A50D3C1B1127F500CAA229 /* LoaderViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = D6A50D391B1127F500CAA229 /* LoaderViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		D6A50D3D1B1127F500CAA229 /* LoaderViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D6A50D3A1B1127F500CAA229 /* LoaderViewController.m */; };
-		D6A50D3E1B1127F500CAA229 /* LoaderViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6A50D3B1B1127F500CAA229 /* LoaderViewController.xib */; };
-		D6A50D751B11292200CAA229 /* LoaderViewController.xib in Sources */ = {isa = PBXBuildFile; fileRef = D6A50D3B1B1127F500CAA229 /* LoaderViewController.xib */; };
+		D6D728E71B20886900F33D4F /* TinyLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D728E51B20886900F33D4F /* TinyLoader.swift */; };
+		D6D728E81B20886900F33D4F /* TinyLoader.xib in Resources */ = {isa = PBXBuildFile; fileRef = D6D728E61B20886900F33D4F /* TinyLoader.xib */; };
+		D6D728EC1B20890300F33D4F /* SBTVAssets.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D728EB1B20890300F33D4F /* SBTVAssets.swift */; };
+		D6D728EE1B20892F00F33D4F /* AutolayoutUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6D728ED1B20892F00F33D4F /* AutolayoutUtils.swift */; };
 		D6E017501B08062D00DAFA0C /* AFHTTPRequestOperation.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E0173D1B08062D00DAFA0C /* AFHTTPRequestOperation.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		D6E017511B08062D00DAFA0C /* AFHTTPRequestOperation.m in Sources */ = {isa = PBXBuildFile; fileRef = D6E0173E1B08062D00DAFA0C /* AFHTTPRequestOperation.m */; };
 		D6E017521B08062D00DAFA0C /* AFHTTPRequestOperationManager.h in Headers */ = {isa = PBXBuildFile; fileRef = D6E0173F1B08062D00DAFA0C /* AFHTTPRequestOperationManager.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -59,11 +81,34 @@
 		D62CA4A41B0800B0000768B0 /* FutureFrameworkTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FutureFrameworkTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D62CA4AA1B0800B0000768B0 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		D62CA4AB1B0800B0000768B0 /* FutureFrameworkTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FutureFrameworkTests.m; sourceTree = "<group>"; };
+		D66BF2C71B208CCA00B8176D /* 1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 1.png; path = loader_images/1.png; sourceTree = "<group>"; };
+		D66BF2C81B208CCA00B8176D /* 2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 2.png; path = loader_images/2.png; sourceTree = "<group>"; };
+		D66BF2C91B208CCA00B8176D /* 3.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 3.png; path = loader_images/3.png; sourceTree = "<group>"; };
+		D66BF2CA1B208CCA00B8176D /* 4.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 4.png; path = loader_images/4.png; sourceTree = "<group>"; };
+		D66BF2CB1B208CCA00B8176D /* 5.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 5.png; path = loader_images/5.png; sourceTree = "<group>"; };
+		D66BF2CC1B208CCA00B8176D /* 6.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 6.png; path = loader_images/6.png; sourceTree = "<group>"; };
+		D66BF2CD1B208CCA00B8176D /* 7.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 7.png; path = loader_images/7.png; sourceTree = "<group>"; };
+		D66BF2CE1B208CCA00B8176D /* 8.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 8.png; path = loader_images/8.png; sourceTree = "<group>"; };
+		D66BF2CF1B208CCA00B8176D /* 9.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 9.png; path = loader_images/9.png; sourceTree = "<group>"; };
+		D66BF2D01B208CCA00B8176D /* 10.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 10.png; path = loader_images/10.png; sourceTree = "<group>"; };
+		D66BF2D11B208CCA00B8176D /* 11.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 11.png; path = loader_images/11.png; sourceTree = "<group>"; };
+		D66BF2D21B208CCA00B8176D /* 12.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 12.png; path = loader_images/12.png; sourceTree = "<group>"; };
+		D66BF2D31B208CCA00B8176D /* 13.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 13.png; path = loader_images/13.png; sourceTree = "<group>"; };
+		D66BF2D41B208CCA00B8176D /* 14.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 14.png; path = loader_images/14.png; sourceTree = "<group>"; };
+		D66BF2D51B208CCA00B8176D /* 15.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 15.png; path = loader_images/15.png; sourceTree = "<group>"; };
+		D66BF2D61B208CCA00B8176D /* 16.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 16.png; path = loader_images/16.png; sourceTree = "<group>"; };
+		D66BF2D71B208CCA00B8176D /* 17.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 17.png; path = loader_images/17.png; sourceTree = "<group>"; };
+		D66BF2D81B208CCA00B8176D /* 18.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 18.png; path = loader_images/18.png; sourceTree = "<group>"; };
+		D66BF2D91B208CCA00B8176D /* 19.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = 19.png; path = loader_images/19.png; sourceTree = "<group>"; };
+		D66BF2DA1B208CCA00B8176D /* SBTVLoaderViewiPhone.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = SBTVLoaderViewiPhone.xib; path = loader_images/SBTVLoaderViewiPhone.xib; sourceTree = "<group>"; };
+		D66BF2DB1B208CCA00B8176D /* spiner.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = spiner.png; path = loader_images/spiner.png; sourceTree = "<group>"; };
+		D66BF2F41B208E7B00B8176D /* rocket.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = rocket.png; sourceTree = "<group>"; };
 		D68486391B0C02920003E1A3 /* Utils.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Utils.h; sourceTree = "<group>"; };
 		D684863A1B0C02A50003E1A3 /* Utils.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Utils.m; sourceTree = "<group>"; };
-		D6A50D391B1127F500CAA229 /* LoaderViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoaderViewController.h; sourceTree = "<group>"; };
-		D6A50D3A1B1127F500CAA229 /* LoaderViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoaderViewController.m; sourceTree = "<group>"; };
-		D6A50D3B1B1127F500CAA229 /* LoaderViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = LoaderViewController.xib; sourceTree = "<group>"; };
+		D6D728E51B20886900F33D4F /* TinyLoader.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TinyLoader.swift; sourceTree = "<group>"; };
+		D6D728E61B20886900F33D4F /* TinyLoader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = TinyLoader.xib; sourceTree = "<group>"; };
+		D6D728EB1B20890300F33D4F /* SBTVAssets.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SBTVAssets.swift; sourceTree = "<group>"; };
+		D6D728ED1B20892F00F33D4F /* AutolayoutUtils.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AutolayoutUtils.swift; sourceTree = "<group>"; };
 		D6E0173D1B08062D00DAFA0C /* AFHTTPRequestOperation.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperation.h; sourceTree = "<group>"; };
 		D6E0173E1B08062D00DAFA0C /* AFHTTPRequestOperation.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AFHTTPRequestOperation.m; sourceTree = "<group>"; };
 		D6E0173F1B08062D00DAFA0C /* AFHTTPRequestOperationManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AFHTTPRequestOperationManager.h; sourceTree = "<group>"; };
@@ -130,6 +175,7 @@
 		D62CA49B1B0800B0000768B0 /* FutureFramework */ = {
 			isa = PBXGroup;
 			children = (
+				D66BF2F11B208D2C00B8176D /* Images */,
 				D6A50D171B11247900CAA229 /* Loader */,
 				D68486381B0C02790003E1A3 /* Utils */,
 				D6E017781B08156D00DAFA0C /* Services */,
@@ -167,6 +213,42 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
+		D66BF2C61B208CAE00B8176D /* imagesLoader */ = {
+			isa = PBXGroup;
+			children = (
+				D66BF2C71B208CCA00B8176D /* 1.png */,
+				D66BF2C81B208CCA00B8176D /* 2.png */,
+				D66BF2C91B208CCA00B8176D /* 3.png */,
+				D66BF2CA1B208CCA00B8176D /* 4.png */,
+				D66BF2CB1B208CCA00B8176D /* 5.png */,
+				D66BF2CC1B208CCA00B8176D /* 6.png */,
+				D66BF2CD1B208CCA00B8176D /* 7.png */,
+				D66BF2CE1B208CCA00B8176D /* 8.png */,
+				D66BF2CF1B208CCA00B8176D /* 9.png */,
+				D66BF2D01B208CCA00B8176D /* 10.png */,
+				D66BF2D11B208CCA00B8176D /* 11.png */,
+				D66BF2D21B208CCA00B8176D /* 12.png */,
+				D66BF2D31B208CCA00B8176D /* 13.png */,
+				D66BF2D41B208CCA00B8176D /* 14.png */,
+				D66BF2D51B208CCA00B8176D /* 15.png */,
+				D66BF2D61B208CCA00B8176D /* 16.png */,
+				D66BF2D71B208CCA00B8176D /* 17.png */,
+				D66BF2D81B208CCA00B8176D /* 18.png */,
+				D66BF2D91B208CCA00B8176D /* 19.png */,
+				D66BF2DA1B208CCA00B8176D /* SBTVLoaderViewiPhone.xib */,
+				D66BF2DB1B208CCA00B8176D /* spiner.png */,
+			);
+			name = imagesLoader;
+			sourceTree = "<group>";
+		};
+		D66BF2F11B208D2C00B8176D /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				D66BF2F41B208E7B00B8176D /* rocket.png */,
+			);
+			name = Images;
+			sourceTree = "<group>";
+		};
 		D68486381B0C02790003E1A3 /* Utils */ = {
 			isa = PBXGroup;
 			children = (
@@ -179,9 +261,11 @@
 		D6A50D171B11247900CAA229 /* Loader */ = {
 			isa = PBXGroup;
 			children = (
-				D6A50D391B1127F500CAA229 /* LoaderViewController.h */,
-				D6A50D3A1B1127F500CAA229 /* LoaderViewController.m */,
-				D6A50D3B1B1127F500CAA229 /* LoaderViewController.xib */,
+				D66BF2C61B208CAE00B8176D /* imagesLoader */,
+				D6D728ED1B20892F00F33D4F /* AutolayoutUtils.swift */,
+				D6D728EB1B20890300F33D4F /* SBTVAssets.swift */,
+				D6D728E51B20886900F33D4F /* TinyLoader.swift */,
+				D6D728E61B20886900F33D4F /* TinyLoader.xib */,
 			);
 			name = Loader;
 			sourceTree = "<group>";
@@ -251,7 +335,6 @@
 				D6E0176E1B080EEA00DAFA0C /* iCarousel.h in Headers */,
 				D6E0175F1B08062D00DAFA0C /* AFURLResponseSerialization.h in Headers */,
 				D684863C1B0C03570003E1A3 /* Utils.h in Headers */,
-				D6A50D3C1B1127F500CAA229 /* LoaderViewController.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -334,7 +417,29 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D6A50D3E1B1127F500CAA229 /* LoaderViewController.xib in Resources */,
+				D66BF2E61B208CCA00B8176D /* 11.png in Resources */,
+				D66BF2E41B208CCA00B8176D /* 9.png in Resources */,
+				D66BF2EE1B208CCA00B8176D /* 19.png in Resources */,
+				D66BF2EA1B208CCA00B8176D /* 15.png in Resources */,
+				D66BF2E71B208CCA00B8176D /* 12.png in Resources */,
+				D66BF2E31B208CCA00B8176D /* 8.png in Resources */,
+				D66BF2E51B208CCA00B8176D /* 10.png in Resources */,
+				D66BF2EF1B208CCA00B8176D /* SBTVLoaderViewiPhone.xib in Resources */,
+				D66BF2E81B208CCA00B8176D /* 13.png in Resources */,
+				D66BF2E21B208CCA00B8176D /* 7.png in Resources */,
+				D66BF2F51B208E7B00B8176D /* rocket.png in Resources */,
+				D66BF2F01B208CCA00B8176D /* spiner.png in Resources */,
+				D66BF2EB1B208CCA00B8176D /* 16.png in Resources */,
+				D66BF2DF1B208CCA00B8176D /* 4.png in Resources */,
+				D66BF2ED1B208CCA00B8176D /* 18.png in Resources */,
+				D66BF2DE1B208CCA00B8176D /* 3.png in Resources */,
+				D66BF2EC1B208CCA00B8176D /* 17.png in Resources */,
+				D66BF2DC1B208CCA00B8176D /* 1.png in Resources */,
+				D6D728E81B20886900F33D4F /* TinyLoader.xib in Resources */,
+				D66BF2E01B208CCA00B8176D /* 5.png in Resources */,
+				D66BF2DD1B208CCA00B8176D /* 2.png in Resources */,
+				D66BF2E11B208CCA00B8176D /* 6.png in Resources */,
+				D66BF2E91B208CCA00B8176D /* 14.png in Resources */,
 				D6E0177D1B081A2A00DAFA0C /* httpWebServices.plist in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -355,18 +460,19 @@
 			files = (
 				D6E017621B08062D00DAFA0C /* AFURLSessionManager.m in Sources */,
 				D6E0176F1B080EEA00DAFA0C /* iCarousel.m in Sources */,
+				D6D728E71B20886900F33D4F /* TinyLoader.swift in Sources */,
 				D6E017551B08062D00DAFA0C /* AFHTTPSessionManager.m in Sources */,
 				D684863B1B0C02A50003E1A3 /* Utils.m in Sources */,
 				D6E0175A1B08062D00DAFA0C /* AFSecurityPolicy.m in Sources */,
+				D6D728EE1B20892F00F33D4F /* AutolayoutUtils.swift in Sources */,
 				D6E017531B08062D00DAFA0C /* AFHTTPRequestOperationManager.m in Sources */,
-				D6A50D3D1B1127F500CAA229 /* LoaderViewController.m in Sources */,
 				D6E017581B08062D00DAFA0C /* AFNetworkReachabilityManager.m in Sources */,
 				D6E0177F1B081E7A00DAFA0C /* FutureServices.m in Sources */,
 				D6E0175C1B08062D00DAFA0C /* AFURLConnectionOperation.m in Sources */,
 				D6E0175E1B08062D00DAFA0C /* AFURLRequestSerialization.m in Sources */,
 				D6E017601B08062D00DAFA0C /* AFURLResponseSerialization.m in Sources */,
 				D6E017511B08062D00DAFA0C /* AFHTTPRequestOperation.m in Sources */,
-				D6A50D751B11292200CAA229 /* LoaderViewController.xib in Sources */,
+				D6D728EC1B20890300F33D4F /* SBTVAssets.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

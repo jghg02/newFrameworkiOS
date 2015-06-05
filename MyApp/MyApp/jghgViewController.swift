@@ -15,7 +15,7 @@ public class jghgViewController : UIViewController, iCarouselDelegate, iCarousel
     @IBOutlet weak var carousel: iCarousel!
     @IBOutlet var root: UIView!
 
-    //var loader : FutureLoaderView?
+    var loader : TinyLoader? //implementd a Custom Loader
     
     public override func viewDidLoad() {
         super.viewDidLoad()
@@ -29,13 +29,12 @@ public class jghgViewController : UIViewController, iCarouselDelegate, iCarousel
         NSLog("This is the URL \(url)")
         
         //Loader
-        //loader = FutureLoaderView.createLoaderInView(self.root, cancellable: false)
+        loader = TinyLoader.createTinyLoaderinView(self.view, cancellable: false)
         
         FutureServices.getWsUrl("posiciones", sucess: {(data) -> Void in
             
             NSLog("Data \(data.count)")
-            
-            //self.loader?.endAnimationAndRemoveView()
+            self.loader!.endAnimationAndRemoveView()
         }, failure: {(error) -> Void in
                 
             NSLog("Error getting Teams... \(error)")
